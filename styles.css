@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.product-image {
+    width: 150px; /* Set a specific width */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure responsiveness */
+    max-height: 200px; /* Set a maximum height */
+    object-fit: cover; /* Cover the area, cropping if necessary */
+}
+.cart-item {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    margin: 10px 0;
+}
+
+.cart-item-image {
+    width: 50px; /* Set a specific width for cart images */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 50px; /* Optional: set a maximum height to keep images uniform */
+    margin-right: 10px; /* Space between image and text */
+}
+button {
+    background-color: #ff4d4d; /* Red background for the remove button */
+    color: white; /* White text color */
+    border: none; /* Remove default border */
+    border-radius: 20px; /* Rounded edges */
+    padding: 8px 12px; /* Padding for the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #e60000; /* Darker red on hover */
+}
+button {
+    background-color: #ff4d4d; /* Red background for the remove button */
+    color: white; /* White text color */
+    border: none; /* Remove default border */
+    border-radius: 20px; /* Rounded edges */
+    padding: 8px 12px; /* Padding for the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    margin-left: 10px; /* Add space between product text and button */
+}
+
+button:hover {
+    background-color: #e60000; /* Darker red on hover */
+}
+nav {
+    background-color: #f8f8f8; /* Background color for the nav */
+    padding: 10px 20px; /* Padding for the nav */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out the items */
+    align-items: center; /* Center items vertically */
+}
+
+.nav-container {
+    display: flex; /* Use flexbox for the container */
+    justify-content: space-between; /* Space out title and links */
+    align-items: center; /* Center items vertically */
+    width: 100%; /* Full width */
+}
+
+.nav-links {
+    display: flex; /* Use flexbox for links */
+    align-items: center; /* Center items vertically */
+}
+
+.nav-links a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Text color */
+    margin-left: 20px; /* Space between links */
+}
+
+.nav-links a i {
+    margin-right: 5px; /* Space between icon and text */
+}
+nav {
+    background-color: #f8f8f8; /* Background color for the nav */
+    padding: 10px 20px; /* Padding for the nav */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out the title and links */
+    align-items: center; /* Center items vertically */
+}
+
+.nav-container {
+    display: flex; /* Use flexbox for the container */
+    justify-content: space-between; /* Space between title and links */
+    align-items: center; /* Center items vertically */
+    width: 100%; /* Full width */
+}
+
+.nav-links {
+    display: flex; /* Use flexbox for links */
+    align-items: center; /* Center items vertically */
+    flex-grow: 1; /* Allow this to take up available space */
+}
+
+.cart-link {
+    /* No additional styles needed here; flexbox will handle positioning */
+}
+
+.nav-links a, .cart-link a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Text color */
+    margin-left: 20px; /* Space between links */
+}
+
+.nav-links a i {
+    margin-right: 5px; /* Space between icon and text */
+}
